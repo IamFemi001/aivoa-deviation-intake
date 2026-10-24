@@ -1,0 +1,19 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.4
+pydantic-settings==2.7.0
+SQLAlchemy==2.0.36
+python-multipart==0.0.20
+pypdf==5.1.0
+
+# --- AI pipeline (LangGraph + Groq) ---
+langgraph==0.2.60
+langchain-groq==0.2.3
+groq==0.13.1
+
+# --- Database driver ---
+# PostgreSQL is the required production/assignment database.
+psycopg2-binary==2.9.10
+
+# --- Uncomment instead of psycopg2-binary if using MySQL ---
+# pymysql==1.1.1
